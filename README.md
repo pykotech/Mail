@@ -1,8 +1,14 @@
 # Mail
 
-- [IMAP](#imap)
-- [POP3](#pop3)
+
 - [SMTP](#smtp)
+Pykotech Changes: 
+=================
+
+* Removed IMAP / POP3. Just a simple sending is needed for my usage.
+* If you are not using eden() chainability, simplest would be to just call directly $smtp = new SMTP([put your constructor arguments here]);
+
+//text below  is from eden-php 
 
 Eden sports the three common ways to interact with mail servers including SMTP, IMAP and POP3. Accessing each protocol can be acheived like in `Figure 1`.
 
